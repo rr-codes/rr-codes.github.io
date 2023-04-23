@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<script type="text/javascript">
+	function onLoad() {
+		document.getElementById('input').addEventListener('change', (event) => {
+			document.getElementById('details').innerText += '\n CHANGE: ' + document.getElementById('input').value;
+		});
+
+		document.getElementById('input').addEventListener('keyup', (event) => {
+			document.getElementById('details').innerText += '\n KEYUP: ' + document.getElementById('input').value;
+		});
+	}
+</script>
+<body onload="onLoad()">
+	<h1>Version: A</h1>
+	<p id="details"></p>
+	<input type="text" name="input" id="input">
+</body>
+</html>
