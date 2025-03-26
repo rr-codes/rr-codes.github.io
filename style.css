@@ -1,0 +1,55 @@
+.hero-image {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 0 70%;
+}
+
+h1 {
+    font-family: ui-serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3 {
+    font-family: system-ui;
+    font-variant: small-caps;
+    font-weight: 600;
+    color: rgb(50, 50, 50);
+    margin-top: 0;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-family: system-ui;
+    font-weight: 700;
+    color: rgb(50, 50, 50);
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+ol {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+p {
+    font-family: ui-serif;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+li {
+    font-family: ui-serif;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
